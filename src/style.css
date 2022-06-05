@@ -1,0 +1,39 @@
+:root {
+  --p_color: #3498db;
+  --txt_color:#bbc8d3;
+  --buffer: 30px;
+}
+*,.table-striped>tbody>tr:nth-of-type(odd)>* {
+  color: var(--txt_color);
+}
+.section {
+  
+  color: white;
+}
+.buffer {
+  padding-top: var(--buffer);
+  padding-bottom: var(--buffer);
+}
+.buffer_top {
+  padding-top: var(--buffer);
+}
+.buffer_bottom {
+  padding-bottom: var(--buffer);
+}
+button:focus {
+  box-shadow: none !important;
+}
+.p_color {
+  color: var(--p_color);
+}
+p{
+  color: var(--txt_color);
+}
+.main-heading {
+  font-size:35px;
+  line-height: 1.7em;
+}
+.formlabel{
+  margin-right: 5px;
+  margin-bottom: 0;
+}
